@@ -4,13 +4,13 @@ body {
   
 @font-face {
   font-family: "Open Sans";
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  src: url("fonts/OpenSans-Regular.woff");
   font-weight: normal;
 }
   
 @font-face {
   font-family: "Open Sans";
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url("fonts/OpenSans-Bold.woff");
   font-weight: bold;
 }
   
@@ -347,7 +347,7 @@ li {
 }
 
 .button-search {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-image: url(../svg/search.svg);
   background-color: #b59f5b;
   background-repeat: no-repeat;
   background-position: center;
@@ -546,23 +546,23 @@ li {
 
 .twitter {
   background-image: url(
-https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+../svg/004-twitter.svg);
 }
 
 .pinterest {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
 }
 
 .facebook {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+  background-image: url(../svg/002-facebook-logo.svg);
 }
 
 .instagram {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+  background-image: url(../svg/005-instagram.svg);
 }
 
 .tumblr {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 
 .socials-text {
@@ -968,7 +968,7 @@ https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter
   width: 20px;
   height: 20px;
   display: inline-block;
-  background-image: url(file:///C:/Users/%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9/Desktop/Mq-31/svg/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
 }
 @media (min-width: 640px) and (max-width: 1199px) {
   .header {
