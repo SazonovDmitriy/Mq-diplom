@@ -4,13 +4,13 @@ body {
   
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/OpenSans-Regular.woff");
+  src: url("fonts/OpenSans-Regular.ttf");
   font-weight: normal;
 }
   
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/OpenSans-Bold.woff");
+  src: url("fonts/OpenSans-Bold.ttf");
   font-weight: bold;
 }
   
