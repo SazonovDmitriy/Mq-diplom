@@ -1346,7 +1346,7 @@ li {
 
 
   .popup {
-    width: 280px;
+    width: 400px;
     height: 500px;
     box-sizing: border-box;
     margin-left: auto;
@@ -1357,6 +1357,17 @@ li {
   .popup__heading {
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .popup__form {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9rem;
+  }
+
+  .popup__1 {
+    margin-bottom: 20px;
   }
   
   .popup__heading::after {
@@ -1380,23 +1391,72 @@ li {
   
   .popup__select {
     width: 100%;
-    height: 40px;
+    height: 48px;
     border: none;
     appearance: none;
+    padding-left: 10px;
+    background-image: url(../svg/form-arrows.svg);
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+    background-color: #f4f7f6;
+    display: inline-block;
+    position: relative;
   }
-  
-  .popup__svg__arrows {
 
+  .popup__2 {
+    margin-bottom: 20px;
   }
-  
+
+  .popup__email__text {
+    width: 100%;
+    display: flex;
+  }
+
+  .popup__text {
+    margin-bottom: 5px;
+  }
+
+  .popup__checkbox {
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+
   .popup__checkbox::before {
     content: "";
     width: 20px;
     height: 20px;
+    margin-right: 5px;
     display: inline-block;
     background-image: url(../svg/form-empty-circle.svg);
+    background-size: 20px 20px;
+    vertical-align: middle;
   }
 
-  .header-logo {
-    position: absolute;
+  .checkbox {
+    display: none;
+  }
+
+  .popup__field {
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 150px;
+    max-height: 150px;
+    border: none;
+    appearance: none;
+    margin-top: 5px;
+    padding-left: 10px;
+    background-color: #f4f7f6;
+  }
+
+  .popup__button {
+    width: 100%;
+    height: 48px;
+    background-color: #b59f5b;
+    margin-top: 20px;
+    border: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
   }
