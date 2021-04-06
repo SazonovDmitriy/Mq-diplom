@@ -425,41 +425,66 @@
         </address>
         <span class="copyright">Copyright © 2009-2019 City Blog LLC.</span>
       </footer>
+
+<div class="popup-box">
+  <div class="popup">
+    <div class="popup-close-button">
+      <a class="popup-close-button-link" href="#0">
+        <span class="visually-hidden">
+          закрыть окно
+        </span>
+      </a>
+    </div>
+    <div class="popup-content">
+      <h2 class="popup-title">
+        Ваш Фидбек
+      </h2>
+      <form class="popup-form">
+        <div class="popup-periodicity-box">
+          <label class="popup-periodicity-label">
+            <span class="popup-periodicity-label-text">
+              Как часто вы заходите на сайт?
+            </span>
+            <select class="popup-periodicity-select">
+              <option selected>Почти каждый день</option>
+              <option>Раз в несколько дней</option>
+              <option>Раз в несколько недель</option>
+							<option>Несколько раз в год</option>
+            </select>
+          </label>
+        </div>
+        <div class="popup-mailing-box">
+          <span class="popup-mailing-ask">
+            Вы подписаны на e-mail рассылку?
+          </span>
+          <div class="popup-mailing-label-box">
+            <label class="popup-mailing-label">
+              <input class="popup-mailing-radio" type="radio" name="mailing-radio" required>
+              <span class="popup-mailing-radio-text">Да</span>
+            </label>
+            <label class="popup-mailing-label">
+              <input class="popup-mailing-radio" type="radio" name="mailing-radio" required>
+              <span class="popup-mailing-radio-text">Нет</span>
+            </label>
+          </div>
+        </div>
+        <div class="popup-subject-box">
+          <label class="popup-subject-label">
+            <span class="popup-subject-label-text">
+              Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+            </span>
+            <textarea class="popup-subject-textarea" placeholder="Может, больше рецептов?" required></textarea>
+          </label>
+        </div>
+        <div class="popup-button-box">
+          <button class="popup-button" type="submit">
+            <span class="popup-button-text">Отправить</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
-
-<div class="popup">
-  <div class="popup__heading">
-    <h2>Ваш фидбек</h2>
-  </div>
-  <form class="popup__form">
-    <div class="popup__1">
-    <label class="popup__label">
-      <span class="popup__text">Как часто вы заходите на сайт?</span>
-      <select class="popup__select">
-        <option value="everyday" selected>Почти каждый день</option>
-      </select>
-    </label>
-    </div>
-    <div class="popup__2">
-      <label class="popup__email">
-        <span class="popup__email__text popup__text">Вы подписаны на e-mail рассылку?</span>
-        <input class="checkbox" type="checkbox" required>
-          <span class="popup__checkbox">Да</span>
-        <input class="checkbox" type="checkbox" required>
-          <span class="popup__checkbox">Нет</span>
-      </label>
-    </div>
-      <div class="popup__3">
-        <label class="popup-text">
-          <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <textarea class="popup__field" placeholder="Может, больше рецептов?" required></textarea>
-        </label>
-        <button class="popup__button">Отправить</button>
-      </div>
-
-    </div>
-  </form>
-
-
-</div>
