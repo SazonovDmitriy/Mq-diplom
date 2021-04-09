@@ -853,6 +853,7 @@ li {
     .article-trend__content {
       width: 1199px;
       flex-direction: row;
+      justify-content: center;
     }
 
     .article-trend__image {
